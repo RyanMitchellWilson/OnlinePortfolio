@@ -1,0 +1,367 @@
+﻿body {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-image: url(Pictures/Mountains.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: lightgray;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+#header {
+    border-bottom: 5px solid rgba(0, 255, 255, 0.50);
+    font-family: 'Play', sans-serif;
+}
+
+.navbar>.container .navbar-brand{
+  margin-left: 0;
+}
+
+.navbar>.container .navbar-brand:hover{
+  color:cyan;
+}
+
+.top-bar {
+  padding: 10px 0;
+  background: rgba(50, 50, 50, .8);
+  border-bottom: 1px solid #222;
+  line-height: 28px;
+}
+
+.social{
+  text-align: right;
+}
+
+.social-share{
+ display: inline-block;
+ list-style: none;
+ padding: 0;
+ margin: 0;
+}
+
+ul.social-share li {
+  display: inline-block;
+}
+
+ul.social-share li a {
+  display: inline-block;
+  color: #fff;
+  background: #bbbbbb;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 2px;
+}
+
+ul.social-share li a:hover {
+  background: cyan;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand {
+  padding: 0;
+  margin:0;
+}
+
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+  background: rgba(60, 60, 60, 0.70);
+  padding: 15px 0;
+  padding-bottom: 0;
+}
+
+ .navbar-nav{
+  margin-top: 12px;
+ }
+
+.navbar-nav>li{
+  margin-left: 35px;
+  padding-bottom: 28px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  padding: 5px 12px;
+  margin: 0;
+  border-radius: 3px;
+  color: #fff;
+  line-height: 24px;
+  display: inline-block;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover{
+	background-color: cyan;
+  color: #000;
+  -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-inverse {
+  border: none;
+}
+
+.navbar-inverse .navbar-brand {
+  font-size: 36px;
+  line-height: 50px;
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: cyan;
+  color: #000;
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-top: 0;
+  padding-bottom: 0;
+}
+
+#footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: 'Play', sans-serif;
+}
+
+#footer a {
+  color: #fff;
+}
+
+#footer a:hover {
+  color: cyan;
+}
+
+#footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer ul > li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.home-page {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+.home-page h1 {
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+.resume {
+    max-height: 100%;
+    max-width: 100%;
+    margin:10px 0 10px 0;
+}
+.profile-pic {
+    border-radius: 50%;
+    margin: 50px 0 50px 0;
+}
+.main-page-quote {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: white;
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+.about-page {
+    color: white;
+    text-align: center;
+}
+.about-page h1 {
+    margin: 50px 0 50px 0;
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+.about-me {
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 10px;
+}
+#tab-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 20px;
+}
+
+.nav-tabs-2 {
+  border-bottom: none;
+}
+
+.nav-tabs-2 > li {
+  float: left;
+  margin-bottom: -1px;
+}
+
+.nav-tabs-2 > li > a {
+  margin-right: 2px;
+  line-height: 1.428571429;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+  color: white;
+  background-color: rgba(0, 95, 95, 0.7);
+  font-size: 20px;
+  font-family: 'Play', sans-serif;
+}
+
+.nav-tabs-2 > li > a:hover {
+  border-color: darkcyan;
+  background-color: darkcyan;
+  color: black;
+  -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-tabs-2 > li.active > a,
+.nav-tabs-2 > li.active > a:hover,
+.nav-tabs-2 > li.active > a:focus {
+  color: black;
+  cursor: default;
+  background-color: cyan;
+  border: 1px solid cyan;
+  border-bottom-color: transparent;
+}
+
+.nav-tabs-2.nav-justified {
+  width: 100%;
+  border-bottom: 0;
+}
+
+.nav-tabs-2.nav-justified > li {
+  float: none;
+}
+
+.nav-tabs-2.nav-justified > li > a {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .nav-tabs-2.nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+}
+
+.nav-tabs-2.nav-justified > li > a {
+  margin-right: 0;
+  border-bottom: 1px solid #dddddd;
+}
+
+.nav-tabs-2.nav-justified > .active > a {
+  border-bottom-color: #ffffff;
+}
+
+.contact-page {
+    text-align: center;
+    color: white;
+}
+
+.contact-page h1 {
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    margin: 50px 0 50px 0;
+}
+
+.contact-form-section {
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact-form-section a {
+    color: white;
+}
+
+.contact-form-section a:hover {
+    color: cyan;
+}
+
+.contact-form input, .contact-form textarea {
+    color: white;
+    background: rgba(0, 0, 0, 0.70);
+    border: none;
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+}
+
+.my-work-page {
+    color: white;
+    text-align: center;
+}
+
+.my-work-page h1 {
+    margin: 50px 0 50px 0;
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+
+.star-wars {
+    margin: 0 auto;
+    max-width: 75%;
+}
+
+.hyper-space {
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+.hangman {
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+.battleship {
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+.tab-content h2 {
+    margin: 0 0 20px 0;
+    padding-top: 20px;
+}
+
+.tab-content a {
+    color: white;
+}
+
+.tab-content a:hover {
+    color: cyan;
+}
